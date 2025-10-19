@@ -1,3 +1,7 @@
+start the zookeeper and kafka before running the application:
+	bin/zookeeper-server-start.sh config/zookeeper.properties
+	bin/kafka-server-start.sh config/server.properties
+
 how async communication takes place in microservices ..
 
 
